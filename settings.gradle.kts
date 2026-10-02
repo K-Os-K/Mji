@@ -1,3 +1,4 @@
+
 pluginManagement {  
     repositories {  
         google()  
@@ -10,6 +11,9 @@ dependencyResolutionManagement {
     repositories {  
         google()  
         mavenCentral()  
+        maven { url = uri("https://jitpack.io") }  // 添加这一行  
     }  
 }  
+  
+rootProject.name = "Mji"  
 include(":app")  
