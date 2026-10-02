@@ -4,7 +4,8 @@ plugins {
 }  
   
 android {  
-    namespace = "com.moon.mji"  
+    namespace = "com.moon.aiphone"  
+  
     compileSdk = 34  
   
     defaultConfig {  
